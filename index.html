@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisioterapi</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="flex-row">
+            <ul class="flex-row">
+                <li id="logo"><a href="#beranda"><img src="assets/gambar/logo.png" alt="" class="image"></a></li>
+            </ul>
+             <ul class="flex-row-menu">
+                <li id="beranda"><a href="#">Beranda</a></li>
+                <li id="tentang"><a href="#tentangg">Tentang</a></li>
+                <!-- Membuat dropdown menu -->
+                <li id="akun"> <button onclick="functionDropdown()" class="dropbtn">Akun</button>
+                    <li class="dropdown-content" id="dropdown-menu" >
+                        <a href="#daftar">Daftar</a>
+                        <a href="#masuk">Masuk</a>
+                    </li> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron card">
+            <div class="flex-container-row">
+                <img class="row img" src="assets/gambar/10198.jpg" alt="">
+                <div class="row text">
+                    <h2>Fisioterapi untuk Memulihkan Gerak dan Fungsi Tubuh Anda</h2>
+                    <p >Fisioterapi dilakukan untuk rehabilitasi fungsional tubuh yang memaksimalkan fungsi, pergerakan dan kualitas hidup pasien dengan berbagai kondisi kesehatan.</p>
+                </div>
+                <div class="row btn">
+                    <button class="button daftar">DAFTAR SEKARANG</button>
+                    <button class="button artikel">LAKUKAN TERAPI MANDIRI</button>    
+                </div>
+            </div>         
+        </div>
+            
+        <div id="content">   
+            <div class="articles card">
+                <h3>ARTIKEL <hr></h3>
+                <div class="flex-article-row">
+                    <article class="article">
+                        <img class="gambar" src="assets/gambar/gambarArtikel1.jpg" alt="">
+                        <p class="isi">Terapi latihan adalah suatu teknik fisioterapi untuk memulihkan ... <br><a href="#artikel">baca selanjutnya ></a> </p>
+                    </article>
+                     <article class="article">
+                        <img class="gambar" src="assets/gambar/gambarArtikel2.jpg" alt="">
+                        <p class="isi">Modalitas yang biasa dipakai dalam melakukan intervensi fisioterapi ... <br><a href="#artikel">baca selanjutnya ></a></p>
+                    </article>
+                </div>
+                    <div class="flex-article-row">
+                        <article class="article">
+                            <img class="gambar" src="assets/gambar/gambarArtikel3.jpg" alt="">
+                            <p class="isi">Manual therapy berfokus pada struktur dan sistem dalam tubuh seperti ... <br><a href="#artikel">baca selanjutnya ></a> </p>
+                        </article>
+                         <article class="article">
+                            <img class="gambar" src="assets/gambar/gambarArtikel4.jpg" alt="">
+                            <p class="isi">terapi Chiropractic (manipulasi leher) untuk nyeri leher ... <br><a href="#artikel">baca selanjutnya ></a></p>
+                        </article>
+                    </div>
+            </div>
+            
+            <section>
+                <header>
+                    <h3>CABANG ILMU FISIOTERAPI <hr></h3>
+                </header>
+
+                <div class="expert card">
+                    <div class="fisioterapis">
+                        <img class="foto" src="assets/gambar/3.png" alt="">
+                        <h4 class="nama">Neurosains</h4>
+                    </div>
+                    <div class="fisioterapis">
+                        <img class="foto" src="assets/gambar/2.png" alt="">
+                        <h4 class="nama">Geriatric</h4>
+                    </div>
+                    <div class="fisioterapis">
+                        <img class="foto" src="assets/gambar/4.png" alt="">
+                        <h4 class="nama">Pediatric</h4>
+                    </div>
+                    <div class="fisioterapis">
+                        <img class="foto" src="assets/gambar/5.png" alt="">
+                        <h4 class="nama">Muskulos- <br>kelatal</h4>
+                    </div>
+                    <div class="fisioterapis">
+                        <img class="foto" src="assets/gambar/6.png" alt="">
+                        <h4 class="nama">Kardivaskular- <br>pulmonal</h4>
+                    </div>
+                    <div class="fisioterapis">
+                        <img class="foto" src="assets/gambar/7.png" alt="">
+                        <h4 class="nama">Sport</h4>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="articles">
+                <div class="flex-article-row">
+                    <article class="jumlah">
+                        <h1>940</h1>
+                        <h4>Jumlah Rumah Sakit yang menyediakan Fisioterapi</h4>
+                        <p>Rumah Sakit di 32 provinsi Indonesia yang menyediakan pelayanan fisioterapi</p>
+                    </article>
+                    <article class="jumlah">
+                        <h1>5270</h1>
+                        <h4>Jumlah Fisioterapis di Indonesia</h4>
+                        <p>Fisioterapis yang bekerja di 32 provinsi Indonesia</p>
+                    </article>
+                    <article class="jumlah">
+                        <h1>10942</h1>
+                        <h4>Jumlah Fisioterapis di Dunia</h4>
+                        <p>Fisioterapis yang bekerja di 320 negara di dunia</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <figure>
+                        <img class="foto" src="assets/gambar/fotoProfil.jpg" alt="">
+                    </figure>
+                </header>
+                <section>
+                    <h3>Biodata <hr></h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>:</td>
+                            <td>Yovanta Anjelina</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>:</td>
+                            <td>Lampung Utara</td>
+                        </tr>
+                        <tr>
+                            <th>No HP</th>
+                            <td>:</td>
+                            <td>082299999999</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>:</td>
+                            <td>yovanta@gmail.com</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article id="tentangg" class="card">
+                <header>
+                    <h2>Tentang <hr></h2>
+                    <p>Website ini memberikan informasi mengenai fisioterapi di Indonesia maupun di dunia.</p>
+                </header>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Info Fisioterapi &copy; 2021, Terapi Sehat</p>
+    </footer>
+
+    <script src="assets/index.js"></script>
+</body>
+</html>
